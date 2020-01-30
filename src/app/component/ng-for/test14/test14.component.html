@@ -1,0 +1,37 @@
+<p>test14 works!</p>
+<div>
+    Names:
+    <ul>
+        <li *ngFor='let n of names; first as f; last as l; even as e; odd as o'>
+            <span *ngIf='f; else fElse'>First : </span>
+            <ng-template #fElse>
+                <span *ngIf='!first'>------ : </span>
+            </ng-template>
+            
+            <span *ngIf='l; else lElse'>Last : </span>
+            <ng-template #lElse>
+                <span>------ : </span>
+            </ng-template>
+            
+            <span *ngIf='o; else oElse'>Odd : </span>
+            <ng-template #oElse>
+                <span>------ : </span>
+            </ng-template>
+            
+            <span *ngIf='e; else eElse'>Even : </span>
+            <ng-template #eElse>
+                <span>------- : </span>
+            </ng-template>
+            <span   style='width: 100px;'>{{n}} </span>
+        </li>
+    </ul>
+
+    <br/>
+    Persons:
+    <ul>
+        <li *ngFor='let p of persons'>
+            {{p.fname}} {{p.lname}}, {{p.age}}
+        </li>
+
+    </ul>
+</div>

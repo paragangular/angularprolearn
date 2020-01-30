@@ -1,0 +1,18 @@
+Displaying Name 1 : <h5  *ngIf='displayName1'>[ Displaying Name 1 ] </h5>   <br/>
+Displaying Name 2 : <h5  *ngIf='displayName2'>[ Displaying Name 2 ] </h5>   <br/>
+Displaying Name 3 : 
+    <h5  *ngIf='displayName3; else displayName3Hash'>[ Displaying Name 3 Part 1 ] </h5>   <br/>
+    <ng-template    #displayName3Hash>
+    <h5  >[ Displaying Name 3 Part 2 ] </h5>
+    </ng-template>
+    <button (click)='toogleDisplay3()'>toogle display 3</button>    <br/>
+Displaying Name 4 : 
+    <div    *ngIf='displayName4; then displayName4Then; else displayName4Else'></div>
+    <ng-template    #displayName4Then>
+        <h5>[ Displaying Name 4 Parg 1]</h5>
+    </ng-template>
+    <ng-template    #displayName4Else>
+        <h5>[ Displaying Name 4 Parg 2]</h5>
+    </ng-template>
+    <br/>
+    <button (click)='toogleDisplay4()'>toogle display 4</button>

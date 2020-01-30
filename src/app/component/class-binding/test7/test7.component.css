@@ -1,0 +1,13 @@
+.text-success{
+    color: green;
+}
+.text-danger{
+    color: red;
+}
+.text-warning{
+    color: yellow;
+    background-color: black;
+}
+.text-special{
+    font-style: italic;
+}
