@@ -1,0 +1,12 @@
+/home/parag/installed/dev/VSCode-linux-x64/code: /lib/x86_64-linux-gnu/libdbus-1.so.3: no version information available (required by /home/parag/installed/dev/VSCode-linux-x64/code)
+/home/parag/installed/dev/VSCode-linux-x64/code: /lib/x86_64-linux-gnu/libdbus-1.so.3: no version information available (required by /home/parag/installed/dev/VSCode-linux-x64/code)
+Fontconfig warning: "/etc/fonts/fonts.conf", line 86: unknown element "blank"
+/proc/self/exe: /lib/x86_64-linux-gnu/libdbus-1.so.3: no version information available (required by /proc/self/exe)
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[90m[main 2020-01-28T08:58:23.043Z][0m update#setState idle
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+/home/parag/installed/dev/VSCode-linux-x64/code: /lib/x86_64-linux-gnu/libdbus-1.so.3: no version information available (required by /home/parag/installed/dev/VSCode-linux-x64/code)
+/home/parag/installed/dev/VSCode-linux-x64/code: /lib/x86_64-linux-gnu/libdbus-1.so.3: no version information available (required by /home/parag/installed/dev/VSCode-linux-x64/code)
+[90m[main 2020-01-28T08:58:53.045Z][0m update#setState checking for updates
+[90m[main 2020-01-28T08:58:53.199Z][0m update#setState available for download

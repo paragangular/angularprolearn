@@ -16,8 +16,8 @@ export class Test1Component implements OnInit {
   }
 
   ngOnInit() {
-    //this.test1Message1 = 'Test-1-Message-1-EFG';
-    //this.test1Message2 = 'Test-1-Message-2-EFG';
+    this.test1Message1 = 'Test-1-Message-1-EFG';
+    this.test1Message2 = 'Test-1-Message-2-EFG';
   }
 
   getTest1Message2(){
